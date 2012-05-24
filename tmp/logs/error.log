@@ -1,0 +1,103 @@
+2012-05-23 14:34:39 Error: [MissingViewException] View file "D:\data\cakePHP\zela\View\Betreuer\index.ctp" is missing.
+#0 D:\data\cakePHP\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 D:\data\cakePHP\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BetreuerController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Daten\mowes\www\zela\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-23 14:38:43 Error: [NotFoundException] Invalid rolle
+#0 [internal function]: RollenController->edit('0')
+#1 D:\data\cakePHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RollenController), Array)
+#2 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(RollenController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Daten\mowes\www\zela\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-23 15:07:09 Error: [NotFoundException] Invalid rolle
+#0 [internal function]: RollenController->edit('0')
+#1 D:\data\cakePHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RollenController), Array)
+#2 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(RollenController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Daten\mowes\www\zela\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-23 15:07:52 Error: [MissingViewException] View file "D:\data\cakePHP\zela\View\Betreuer\index.ctp" is missing.
+#0 D:\data\cakePHP\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 D:\data\cakePHP\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BetreuerController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Daten\mowes\www\zela\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-23 15:08:05 Error: [MissingViewException] View file "D:\data\cakePHP\zela\View\Kinder\index.ctp" is missing.
+#0 D:\data\cakePHP\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 D:\data\cakePHP\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(KinderController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Daten\mowes\www\zela\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-24 09:36:10 Error: [MissingViewException] View file "D:\data\cakePHP\zela\View\Betreuer\index.ctp" is missing.
+#0 D:\data\cakePHP\lib\Cake\View\View.php(460): View->_getViewFileName(NULL)
+#1 D:\data\cakePHP\lib\Cake\Controller\Controller.php(959): View->render(NULL, NULL)
+#2 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(110): Controller->render()
+#3 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BetreuerController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Daten\mowes\www\zela\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-24 13:46:40 Error: [MissingActionException] Action BetreuerController::66() could not be found.
+#0 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BetreuerController), Object(CakeRequest), Object(CakeResponse))
+#2 D:\Daten\mowes\www\zela\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-05-24 13:46:47 Error: [NotFoundException] Betreuer nicht gefunden!
+#0 [internal function]: BetreuerController->view('66')
+#1 D:\data\cakePHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BetreuerController), Array)
+#2 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BetreuerController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Daten\mowes\www\zela\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-24 13:46:55 Error: [NotFoundException] Betreuer nicht gefunden!
+#0 [internal function]: BetreuerController->view()
+#1 D:\data\cakePHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BetreuerController), Array)
+#2 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BetreuerController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Daten\mowes\www\zela\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-24 14:18:21 Error: [NotFoundException] Invalid betreuer
+#0 [internal function]: BetreuerController->edit('55')
+#1 D:\data\cakePHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(BetreuerController), Array)
+#2 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(BetreuerController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Daten\mowes\www\zela\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-24 14:25:40 Error: [NotFoundException] Invalid rolle
+#0 [internal function]: RollenController->view('12')
+#1 D:\data\cakePHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RollenController), Array)
+#2 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(RollenController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Daten\mowes\www\zela\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-24 14:25:46 Error: [NotFoundException] Invalid rolle
+#0 [internal function]: RollenController->view('8')
+#1 D:\data\cakePHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RollenController), Array)
+#2 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(RollenController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Daten\mowes\www\zela\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-24 16:02:11 Error: [NotFoundException] Invalid rolle
+#0 [internal function]: RollenController->view()
+#1 D:\data\cakePHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RollenController), Array)
+#2 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(RollenController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Daten\mowes\www\zela\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-24 16:02:17 Error: [NotFoundException] Invalid rolle
+#0 [internal function]: RollenController->view()
+#1 D:\data\cakePHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RollenController), Array)
+#2 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(RollenController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Daten\mowes\www\zela\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-05-24 16:02:23 Error: [NotFoundException] Invalid rolle
+#0 [internal function]: RollenController->view('0')
+#1 D:\data\cakePHP\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(RollenController), Array)
+#2 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#3 D:\data\cakePHP\lib\Cake\Routing\Dispatcher.php(85): Dispatcher->_invoke(Object(RollenController), Object(CakeRequest), Object(CakeResponse))
+#4 D:\Daten\mowes\www\zela\index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
